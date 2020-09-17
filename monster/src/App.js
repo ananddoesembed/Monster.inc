@@ -29,7 +29,7 @@ class App extends Component {
       console.log(filteredMonster)
   return (
     <div className="App">
-    <h1>Monster.inc</h1>
+    <h1 className="Heading">Monster.inc</h1>
     <SearchBox SearchbarHandler={this.searchbarHandler}/>
     <CardComponent monsters={filteredMonster}/>
     </div>
